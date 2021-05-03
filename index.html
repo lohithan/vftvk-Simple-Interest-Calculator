@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
+
 <div class="maindiv">
+    <h1>Simple Interest Calculator</h1>
         <a onchange="validate_numer()"> Amount <input type="number"  id="principal">  <br/></a>
         Interest Rate <input onchange="read_value()" type="range" min="1" max="20" step="0.25" id="rate"> <span id="rate_value" > 10.5% </span> <br/>
         <!--Interest Rate <input onchange="read_value()" type="range"  id="rate" min="minval" max="maxval" >
@@ -22,12 +23,14 @@
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-    <!-- fill in the rest of the values--></seAlect><br>
+    <!-- fill in the rest of the values--></select><br>
 
 
         <button onclick="compute()">Compute Interest</button><br>
         <span id="result"></span>
+        <br>
+        <br>
+        <p>&#169; This Calculator belongs to Lohith</p>
 </div>
-        <footer>&#169; This Calculator belongs to Lohith</footer>
     </body>
 </html>
